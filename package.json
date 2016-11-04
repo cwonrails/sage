@@ -79,7 +79,7 @@
     "webpack-hot-middleware": "^2.13.1"
   },
   "dependencies": {
-    "bootstrap": "github:twbs/bootstrap#v4-dev",
+    "bootstrap": "4.0.0-alpha.5",
     "font-awesome": "^4.7.0",
     "jquery": "^3.1.1"
   }

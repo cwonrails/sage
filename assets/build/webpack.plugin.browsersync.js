@@ -1,5 +1,3 @@
-'use strict'; // eslint-disable-line
-
 const webpackDevMiddleware = require('webpack-dev-middleware');
 const webpackHotMiddleware = require('webpack-hot-middleware');
 const browserSync = require('browser-sync');
@@ -13,7 +11,7 @@ module.exports = class {
     this.watcher = null;
     this.compiler = null;
     this.options = mergeWithConcat({
-      proxyUrl: 'https://localhost:3000',
+      proxyUrl: 'http://localhost:3000',
       watch: [],
       callback() {},
     }, options);
